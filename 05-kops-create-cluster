@@ -1,0 +1,5 @@
+#!/bin/bash 
+kops create cluster --zones us-east-1a   --networking weave --master-size t2.medium --master-count 1 --node-size t2.large --node-count=2 ${NAME}
+
+
+

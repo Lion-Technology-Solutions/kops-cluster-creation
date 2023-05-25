@@ -1,0 +1,6 @@
+#!/bin/bash 
+
+
+aws s3 mb s3://liontechclass20bootcamp.k8s.local
+ aws s3 ls
+
